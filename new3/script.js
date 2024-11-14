@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const scrollBox2 = document.getElementById("scrollBox2");
   const steps = document.getElementById("steps");
 
-  function observeElement(element, callback, threshold = 0.1) {
+  function observeElement(element, callback, threshold = 0.06) {
     if (element) {
       const observer = new IntersectionObserver((entries) => {
         entries.forEach((entry) => {
@@ -24,7 +24,7 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
   // Observing elements for visibility
-  observeElement(scrollBox, addVisibleClass, 0.05); // Trigger when 5% is visible
+  observeElement(scrollBox, addVisibleClass, 0.06); // Trigger when 5% is visible
   observeElement(scrollBox2, addVisibleClass);
   observeElement(steps, addVisibleClass);
 
