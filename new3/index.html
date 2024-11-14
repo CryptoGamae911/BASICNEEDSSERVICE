@@ -70,7 +70,7 @@
                     <li class="ule">Overnight care</li>
                     <li class="ule">Event childcare</li>
                 </ul>
-                <button class="book-button">Book Now</button>
+                <button class="book-button" id="buttonn">Book Now</button>
             </div>
             <!-- Image -->
             <div class="image-container">
@@ -82,20 +82,25 @@
                 </div>
             </div>
         </div>
-        <div class="container3">
-            <h2>Women's Salon & Spa</h2>
-            <div class="icon-container">
-                <div class="service">
-                    <img src="salon-icon.png" alt="Salon for Women">
-                    <p>Salon for Women</p>
-                </div>
-                <div class="service">
-                    <img src="spa-icon.png" alt="Spa for Women">
-                    <p>Spa for Women</p>
-                </div>
-                <div class="service">
-                    <img src="hair-studio-icon.png" alt="Hair Studio for Women">
-                    <p>Hair Studio for Women</p>
+        <div id="container3" style="display: none;">
+            <div class="popup-content">
+                <span id="closePopup" class="close">&times;</span>
+                <h2>Basic Services</h2>
+                <div class="icon-container">
+                    <div class="service">
+                        <button class="imgew" style="background-image: url('icon/elec.png');"></button>
+                        <p class="trw">Electrician</p>
+                    </div>
+                    <div class="service">
+                        <button class="imgew" style="background-image: url('icon/plum.png');">
+                        </button>
+                        <p class="trw">Plumber</p>
+                    </div>
+                    <div class="service">
+                        <button class="imgew" style="background-image: url('icon/water.png');">
+                        </button>
+                        <p class="try">Water Supply</p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -230,7 +235,7 @@
             <div class="step">
                 <div class="step-number">1</div>
                 <h3 class="huh1">Describe Your Task</h3>
-                <p >Tell us what you need done, when and where it works for you.</p>
+                <p>Tell us what you need done, when and where it works for you.</p>
             </div>
             <div class="step">
                 <div class="step-number">2</div>
@@ -240,7 +245,8 @@
             <div class="step">
                 <div class="step-number">3</div>
                 <h3 class="huh3">Get it Done!</h3>
-                <p class="aw">Your Tasker arrives and gets the job done. Pay securely and leave a review, all through TaskRabbit.
+                <p class="aw">Your Tasker arrives and gets the job done. Pay securely and leave a review, all through
+                    TaskRabbit.
                 </p>
             </div>
         </div>
@@ -290,7 +296,7 @@
             </div>
         </div>
     </footer>
-    <script src="script.js"></script>
+    <script src="script.js" defer></script>
 </body>
 
 </html>
