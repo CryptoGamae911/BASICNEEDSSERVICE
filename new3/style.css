@@ -405,6 +405,7 @@ body {
 .letter:nth-child(13) { animation-delay: 1.2s; }
 .letter:nth-child(14) { animation-delay: 1.3s; }
 .letter:nth-child(15) { animation-delay: 1.4s; }
+.letter:nth-child(16) { animation-delay: 1.5s; }
 .boks{
     position: fixed;
 }
